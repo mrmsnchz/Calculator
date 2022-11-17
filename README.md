@@ -5,3 +5,6 @@ I was using a calculator since i started the path to accountancy.
 
 
 https://codepen.io/MiriamSanchez/full/RwZXNeo
+
+
+![c (2)](https://user-images.githubusercontent.com/94837339/202553218-4fe82542-8fa8-49a4-85e7-13ceb117e946.jpg)
