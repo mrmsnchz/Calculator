@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: rgba(191, 191, 191, 0.819);
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.calculator {
+  border: 2px solid #47476b;
+  box-shadow: 3px 3px 3px 1px;
+  padding: 15px;
+  background: rgb(255, 255, 255, .9);
+  width: 320px;
+  position: relative;
+  border-radius: 14px;
+}
+
+.formulaScreen {
+  min-height: 20px;
+  font-family: Arial Narrow Bold;
+  font-size: 20px;
+  color: grey;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  background: rgb(255, 255, 260, .9);
+}
+
+.outputScreen {
+  background: rgba(255, 255, 260, .9);
+  font-size: 29px;
+  font-family: arial;
+  color: black;
+  text-align: right;
+  line-height: 35px;
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  padding: 5px;
+  outline: 2px solid black;
+  background: rgba(175, 169, 169, 0.75);
+  font-family: arial;
+  font-size: 25px;
+  cursor: default;
+  border: 1px solid black;
+  border-radius: 1px;
+}
+
+  button:hover {
+    color: black;
+    outline: 0.1em solid white;
+    z-index: 1;
+  }
+
+
+.jumbo {
+  width: 160px;
+}
